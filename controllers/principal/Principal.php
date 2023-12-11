@@ -6,8 +6,8 @@
         }
         public function index(){
             $data = $this->model->getPrueba();
-            $this->views->getView('principal', 'index', $data);
+            print_r($data);
+            //$this->views->getView('principal', 'index', $data);
         }
     }
 ?>
-<p>Prueba para merge</p>
