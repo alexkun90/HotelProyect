@@ -1,10 +1,9 @@
 <?php 
     require_once 'config/config.php';
 
-    //Captura url actual
-    $currentPageUrl = $_SERVER['REQUEST_URI'];
+   
     //Verifixcar si existe la ruta admin
-    $isAdmin = strpos($currentPageUrl, '/' . ADMIN) !== false;
+    $isAdmin = strpos($_SERVER['REQUEST_URI'], '/' . ADMIN) !== false;
     //Comprobar si existe get para crear urls amigables
     $ruta = empty($_GET['url']) ? 'principal/index' : $_GET['url'];
     //Crear un array apartir de la ruta
@@ -33,6 +32,8 @@
         }
         $parametro = trim($parametro, ',');       
     }
+    //LLamar Autoload
+    require_once 'config/app/Autoload.php';
     //Validar directorio de controladores
     $dirControllers = ($isAdmin) ? 'controllers/admin/' . $controller . '.php' : 'controllers/principal/' . $controller . '.php';
     if (file_exists($dirControllers)) {

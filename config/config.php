@@ -4,7 +4,7 @@
     define('RUTA_ADMIN', RUTA_PRINCIPAL . ADMIN . '/');
     define('HOST', 'localhost');
     define('USER', 'root');
-    define('PASS', '');
-    define('DATABASE', 'localhost');
+    define('PASS', '2022');
+    define('DATABASE', 'reservas');
     define('CHARSET', 'charset=utf8');
 ?>
