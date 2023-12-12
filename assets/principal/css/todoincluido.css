@@ -1,0 +1,112 @@
+.custom-nav {
+    background-color: rgba(235, 204, 110, 0.5);
+    transition: all 0.5s;
+}
+
+.custom-nav.navbar-scrolled {
+    background-color: rgba(235, 204, 110, 0.8);
+}
+
+/* Estilo para el carrusel que abarca el ancho total de la página */
+#myCarousel {
+    width: 100%;
+    margin: 0;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los botones del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    /* Alinea verticalmente en la mitad del carrusel */
+    transform: translateY(-50%);
+    /* Centra verticalmente */
+    background: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cambia el color de fondo */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cambia el color de fondo en el hover */
+}
+
+/* Estilo para el título llamativo */
+.custom-title {
+    font-family: 'Lobster', cursive; /* Fuente Lobster de Google Fonts */
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    
+}
+
+/* Estilo para el párrafo llamativo */
+.custom-paragraph {
+    font-size: 25px;
+    text-align: center;
+    color: #666;
+}
+
+/* Estilo para colorear el borde del container */
+.custom-container {
+    border: 2px ;
+    /* Color y grosor del borde */
+    padding: 80px;
+    /* Espacio alrededor del contenido */
+}
+
+.custom-section-servicios {
+    background-image: url('https://blogger.googleusercontent.com/img/a/AVvXsEhwos2D2Ah5YOYkXapAvR9oIHpqh7KPCP8ftnSPitVUGsUV_C1FC7Ccj_vmp4VfRoG583y6_piKVXfO81n-aDHim10ybj7JOSwCwYpzdi9bR8QmVqUITUibyxMRU_6vHCIefgM72uTDWZy2BceEFKcmngQCWNtNS1c9lSgbYapQBvI4EmuYy7h8Z1DSCMjg');
+    /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Color de texto en el section */
+    padding: 100px 0;
+    /* Espacio alrededor del contenido dentro del section */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-section-informacion {
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    /* Color de texto en el section */
+    padding: 100px 0;
+    /* Espacio alrededor del contenido dentro del section */
+    text-align: center;
+    margin-top: 20px;
+}
+/* Estilo para el section con imagen a la izquierda y texto a la derecha */
+.custom-section-informacion {
+    display: flex;
+    align-items: center;
+}
+
+.custom-section-informacion img {
+    width: 90%; /* Ancho de la imagen */
+    margin-right: 0px; /* Espacio entre la imagen y el texto */
+}
+
+.custom-section-informacion h1, .custom-section-informacion p {
+    width: 100%; /* Ancho del contenido de texto */
+}
+.underline {
+    text-align: center;
+    border-bottom: 4px solid #000;
+    margin: 30px auto;
+    max-width: 80%;
+}

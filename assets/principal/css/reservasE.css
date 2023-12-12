@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container_logo {
+    display: flex;
+    align-items: center;
+}
+
+.mi_logo {
+    width: 100px;
+}
+
+.contenido-centrado {
+    background-color: #f4f4f4; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+    border-radius: 10px; /* Añade bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añade una sombra ligera */
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en una columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Opcional: para centrar el contenido de texto en horizontal */
+}
+
+.contenido-centrado h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.seccion-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-cuadrada img {
+    width: 600px;
+    height: 400px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto de referencia */
+}
+
+.texto-referencia {
+    width: 500px;
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en una columna */
+    align-items: center; /* Centra horizontalmente el texto con respecto a la imagen */
+    text-align: center; /* Alinea el texto al centro */
+}
