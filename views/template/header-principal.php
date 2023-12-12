@@ -26,13 +26,10 @@
                             <a class="nav-link" href="<?php echo RUTA_PRINCIPAL . 'habitacion'; ?>">Alojamiento</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Eventos</a>
+                            <a class="nav-link" href="<?php echo RUTA_PRINCIPAL . 'eventos'; ?>">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contactenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Galeria</a>
+                            <a class="nav-link" href="<?php echo RUTA_PRINCIPAL . 'contactenos'; ?>">Contactenos</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">

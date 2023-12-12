@@ -301,3 +301,101 @@ a.btn.btn-primary.btn-floating.m-1 {
 #texto-ubicacion p.lead {
     font-size: 1.2rem;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100vh;
+    align-items: start;
+}
+
+.card {
+    flex: 0 1 calc(30% - 20px);
+    text-align: center;
+    width: 18rem;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.contactenos-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.default-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.default-btn:hover {
+    background-color: #45a049;
+}
+
+.flaticon-right {
+    margin-left: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#contactenos-title {
+    margin-top: 60px;
+    font-size: 2rem;
+}
+
+#btnsubmit {
+    margin-bottom: 10px;
+}
+
+#card-eventos {
+    margin-bottom: 20px;
+}
