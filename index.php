@@ -1,6 +1,6 @@
 <?php 
     require_once 'config/config.php';
-
+    require_once 'helpers/funciones.php';
    
     //Verifixcar si existe la ruta admin
     $isAdmin = strpos($_SERVER['REQUEST_URI'], '/' . ADMIN) !== false;
