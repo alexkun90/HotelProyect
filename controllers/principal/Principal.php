@@ -5,7 +5,8 @@
             parent::__construct();
         }
         public function index(){
-            $this->views->getView('principal', 'index');
+            $data['title'] = 'Pagina Principal';
+            $this->views->getView('index', $data);
         }
     }
 ?>
