@@ -5,9 +5,7 @@
             parent::__construct();
         }
         public function index(){
-            $data = $this->model->getPrueba();
-            print_r($data);
-            //$this->views->getView('principal', 'index', $data);
+            $this->views->getView('principal', 'index');
         }
     }
 ?>
