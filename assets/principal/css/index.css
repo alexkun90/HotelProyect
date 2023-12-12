@@ -1,0 +1,303 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(235, 204, 110, 0.5); /* Código de color amarillo */
+}
+
+
+/* Estilos para el contenedor de contenido */
+.content {
+    text-align: center; /* Centra el contenido en horizontal */
+    padding: 20px;
+}
+
+/* Estilos para el título centrado */
+.centered-title {
+    font-size: 24px; /* Ajusta el tamaño del título según tus necesidades */
+    font-weight: bold;
+}
+
+/* Estilos para el párrafo */
+.paragraph {
+    font-size: 16px; /* Ajusta el tamaño del párrafo según tus necesidades */
+    margin-top: 10px; /* Espacio superior */
+}
+
+.container_logo {
+    display: flex;
+    align-items: center;
+}
+
+.mi_logo {
+    width: 100px;
+}
+
+.contenido-centrado {
+    background-color: rgba(235, 204, 110, 0.5); /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+    border-radius: 10px; /* Añade bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añade una sombra ligera */
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en una columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Opcional: para centrar el contenido de texto en horizontal */
+}
+
+.contenido-centrado h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.seccion-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-cuadrada img {
+    width: 600px;
+    height: 400px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto de referencia */
+}
+
+.texto-referencia {
+    background-color: rgba(235, 204, 110, 0.5);
+    width: 500px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex-direction: column; /* Coloca el contenido en una columna */
+    align-items: center; /* Centra horizontalmente el texto con respecto a la imagen */
+    text-align: center; /* Alinea el texto al centro */
+    border-radius: 10px;
+}
+
+a.btn.btn-primary.btn-floating.m-1 {
+    border: none !important;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+/* Facebook */
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-facebook:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Twitter */
+.btn-twitter {
+    background-color: #55acee;
+}
+
+.btn-twitter:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Google */
+.btn-google {
+    background-color: #dd4b39;
+}
+
+.btn-google:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Instagram */
+.btn-instagram {
+    background-color: #ac2bac;
+}
+
+.btn-instagram:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Linkedin */
+.btn-linkedin {
+    background-color: #0082ca;
+}
+
+.btn-linkedin:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Github */
+.btn-github {
+    background-color: #333333;
+}
+
+.btn-github:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el carrusel que abarca el ancho total de la página */
+#myCarousel {
+    width: 100%;
+    margin: 0;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los botones del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    /* Alinea verticalmente en la mitad del carrusel */
+    transform: translateY(-50%);
+    /* Centra verticalmente */
+    background: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cambia el color de fondo */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cambia el color de fondo en el hover */
+}
+
+/*
+.custom-navbar .navbar-nav .nav-link,
+.custom-navbar .navbar-nav .dropdown-menu a {
+    background-color: #343a40 !important;
+}
+*/
+
+.custom-navbar:hover .navbar-nav:hover .nav-link:hover,
+.custom-navbar:hover .navbar-nav:hover .dropdown-menu:hover a:hover {
+    color: white !important;
+}
+
+.custom-navbar .nav-link.dropdown-toggle::after {
+    border-top-color: black !important;
+}
+
+/*
+.custom-navbar .dropdown-menu {
+    background-color: #212529 !important;
+}
+*/
+
+.dropdown-menu:hover a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 80px;
+}
+
+.text-black{
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/* Estilo para el título llamativo */
+.custom-title {
+    font-family: 'Lobster', cursive;
+    /* Fuente Lobster de Google Fonts */
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+
+}
+
+/* Estilo para el párrafo llamativo */
+.custom-paragraph {
+    font-size: 25px;
+    text-align: center;
+    color: #666;
+}
+
+/* Estilo para colorear el borde del container */
+.custom-container {
+    border: 2px;
+    /* Color y grosor del borde */
+    padding: 80px;
+    /* Espacio alrededor del contenido */
+}
+
+.custom-section-servicios {
+    background-image: url('https://blogger.googleusercontent.com/img/a/AVvXsEhwos2D2Ah5YOYkXapAvR9oIHpqh7KPCP8ftnSPitVUGsUV_C1FC7Ccj_vmp4VfRoG583y6_piKVXfO81n-aDHim10ybj7JOSwCwYpzdi9bR8QmVqUITUibyxMRU_6vHCIefgM72uTDWZy2BceEFKcmngQCWNtNS1c9lSgbYapQBvI4EmuYy7h8Z1DSCMjg');
+    /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Color de texto en el section */
+    padding: 100px 0;
+    /* Espacio alrededor del contenido dentro del section */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-section-informacion {
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    /* Color de texto en el section */
+    padding: 100px 0;
+    /* Espacio alrededor del contenido dentro del section */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el section con imagen a la izquierda y texto a la derecha */
+.custom-section-informacion {
+    display: flex;
+    align-items: center;
+}
+
+.custom-section-informacion img {
+    width: 90%;
+    /* Ancho de la imagen */
+    margin-right: 0px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.custom-section-informacion h1,
+.custom-section-informacion p {
+    width: 100%;
+    /* Ancho del contenido de texto */
+}
+
+.underline {
+    text-align: center;
+    border-bottom: 4px solid #000;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+#titulo-ubicacion {
+    font-size: 2rem;
+}
+
+#texto-ubicacion p.lead {
+    font-size: 1.2rem;
+}
