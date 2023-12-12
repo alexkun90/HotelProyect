@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+  }
+  
+  ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0%;
+  }
+  
+  .primero {
+  grid-column-start: 5;
+  }
+  
+  .nombre {
+  background: #eee;
+  font-weight: bold;
+  }
+  
+  .calendario li{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  background-color: whitesmoke;
+  }
+  
+  .calendario li.selected{
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #app {
+    float: center; 
+  }
+  
