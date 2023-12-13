@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }else {
             const http = new XMLHttpRequest();
  
-    const url = base_url + 'registro/crear';
+            const url = base_url + '/registro/crear';
+
     
     http.open("POST", url, true);
   
