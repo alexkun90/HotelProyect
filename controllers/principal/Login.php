@@ -6,8 +6,11 @@
         }
         public function index(){
             $data['title'] = 'Login';
-            $data['subtitle'] = 'Inicio de sesion';
-            $this->views->getView('principal/login', $data);
+            $this->views->getView('principal/login/Login', $data);
+        }
+        public function login(){
+            $data['title'] = 'Login';
+            $this->views->getView('principal/login/Login', $data);
         }
     }
 ?>

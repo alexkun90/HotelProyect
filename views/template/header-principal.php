@@ -39,7 +39,7 @@
                                     <a class="dropdown-item" href="<?php echo RUTA_ADMIN . 'dashboard'; ?>">My profile</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="">Login</a>
+                                    <a class="dropdown-item" href="<?php echo RUTA_PRINCIPAL . 'login'; ?>">Login</a>
                                 </li>
                             </ul>
                             <a class="nav-link dropdown-toggle d-flex align-items-center ms-auto" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

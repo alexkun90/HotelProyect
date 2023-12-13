@@ -44,7 +44,7 @@
             <div class="col-lg-4">
                 <div class="info-box bg-info">
                     <div class="info-box-content">
-                        <span class="info-box-number">100</span>
+                        <span class="info-box-number">4</span>
                         <span class="info-box-text">Usuarios Creados</span>
                     </div>
                     <span class="info-box-icon">
@@ -57,7 +57,7 @@
             <div class="col-lg-4">
                 <div class="info-box bg-success">
                     <div class="info-box-content">
-                        <span class="info-box-number">50</span>
+                        <span class="info-box-number">4</span>
                         <span class="info-box-text">Habitaciones Reservadas</span>
                     </div>
                     <span class="info-box-icon">
@@ -71,7 +71,7 @@
             <div class="col-lg-4">
                 <div class="info-box bg-warning">
                     <div class="info-box-content">
-                        <span class="info-box-number">20</span>
+                        <span class="info-box-number">4</span>
                         <span class="info-box-text">Eventos Añadidos</span>
                     </div>
                     <span class="info-box-icon">
@@ -98,10 +98,10 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                labels: ['Septiembre','Octubre','Noviembre', 'Diciembre'],
                 datasets: [{
                     label: 'Habitaciones Reservadas',
-                    data: [12, 19, 3, 5, 2, 3],
+                    data: [0, 0, 4, 0],
                     borderWidth: 1,
                     borderColor: 'red',
                     backgroundColor: 'red',
@@ -117,10 +117,10 @@
         new Chart(ctx2, {
             type: 'line',
             data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                labels: ['Octubre','Noviembre', 'Diciembre','Enero','Febrero'],
                 datasets: [{
                     label: 'Eventos Añadidos',
-                    data: [12, 19, 3, 5, 2, 3],
+                    data: [0, 4, 0, 0, 0],
                     borderWidth: 1,
                     borderColor: 'blue',
                     backgroundColor: 'blue',

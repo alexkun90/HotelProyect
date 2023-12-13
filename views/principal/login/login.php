@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,26 +27,24 @@
             <!--Formulario de login y Registro-->
             <div class="contenedor__login-register">
                 <!--Login-->
-                <form action="./login_usuario_be.php" method="POST" class="formulario__login">
+                <form action="<?php echo RUTA_PRINCIPAL ?>" method="POST" class="formulario__login">
                     <h2>Iniciar Sesion</h2>
                     <input type="text" placeholder="Correo Electronico" name="correo">
                     <input type="password" placeholder="Contraseña" name= "contrasena">
                     <button>Iniciar</button>
                 </form>
                 <!--Registro-->
-                <form id="formulario" autocomplete="off" class="formulario__register">
+                <form action="<?php echo RUTA_PRINCIPAL . 'login'; ?>" method="POST" class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo" name="nombre">
+                    <input type="text" placeholder="Nombre Completo" name="nombre_completo">
                     <input type="text" placeholder="Correo Electronico" name="correo">
                     <input type="text" placeholder="Usuario" name="usuario">
-                    <input type="password" placeholder="Contraseña" name="clave">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Registrarse</button>
                 </form>
             </div>
         </div>
     </main>
-    <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal/js/pages/login.js'; ?>"></script>
-    <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal/js/pages/register.js'; ?>"></script>
-    <script src="assets/principal/css/scriptLogin.js"></script>
+    <script src="views/principal/login/scriptLogin.js"></script>
 </body>
 </html>

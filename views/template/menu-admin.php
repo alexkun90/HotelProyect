@@ -10,6 +10,12 @@
             <li class="nav-item">
                 <a href="<?php echo RUTA_ADMIN . 'alojamiento'; ?>" class="nav-link text-white">
                     <i class="far fa-circle nav-icon"></i>
+                    <p>Usuarios</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="<?php echo RUTA_ADMIN . 'usuarios'; ?>" class="nav-link text-white">
+                    <i class="far fa-circle nav-icon"></i>
                     <p>Alojamientos</p>
                 </a>
             </li>
