@@ -27,7 +27,7 @@
     <div class="col-md-12" id="datatable">
         <div class="card card-dark">
             <div class="card-header">
-                <h3 class="card-title">Usuarios existentes</h3>
+                <h3 class="card-title">Habitaciones Reservadas</h3>
             </div>
             <div class="card-body p-0">
                 <div class="row mt-2">
@@ -35,46 +35,46 @@
                         <table id="example" class="table">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
                                     <th>Nombre</th>
+                                    <th>Apellido</th>
                                     <th>Correo</th>
-                                    <th>Telefono</th>
-                                    <th>Direccion</th>
-                                    <th>Fecha</th>
+                                    <th>Tipor de Habitacion</th>
+                                    <th>Fecha llegada</th>
+                                    <th>Fecha salida</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
                                     <td>Mauricio</td>
+                                    <td>Hidalgo</td>
                                     <td>mauhidalgo312@gmail.com</td>
-                                    <td>8686-8484</td>
-                                    <td>San Sebastian</td>
+                                    <td>Habitacion Doble</td>
+                                    <td>2023-12-15</td>
+                                    <td>2023-12-20</td>
+                                </tr>
+                                <tr>
+                                    <td>Pablo</td>
+                                    <td>Castillo</td>
+                                    <td>pablo@gmail.com</td>
+                                    <td>Habitacion Simple</td>
+                                    <td>2023-12-10</td>
                                     <td>2023-12-13</td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Alex</td>
-                                    <td>Alex@gmail.com</td>
-                                    <td>1234-5678</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
+                                    <td>Gabriel</td>
+                                    <td>Guerra</td>
+                                    <td>gabo@gmail.com</td>
+                                    <td>Habitacion Doble</td>
+                                    <td>2023-12-20</td>
+                                    <td>2023-12-25</td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>Hermes</td>
-                                    <td>Hermes@gmail.com</td>
-                                    <td>8765-4321</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Sebas</td>
-                                    <td>Sebas@gmail.com</td>
-                                    <td>1111-1111</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
+                                    <td>Steven</td>
+                                    <td>Artavia</td>
+                                    <td>steven@gmail.com</td>
+                                    <td>Habitacion con Terraza</td>
+                                    <td>2023-12-15</td>
+                                    <td>2023-12-20</td>
                                 </tr>
                             </tbody>
                         </table>

@@ -56,40 +56,44 @@
 
 <div class="d-flex justify-content-center">
     <div class="card mx-2" id="card-eventos" style="width: 32rem;">
-        <img src="https://image-tc.galaxy.tf/wijpeg-f58xxt4wga8k0oiub1c3e90s3/familymaster05_wide.jpg?crop=0%2C95%2C1800%2C1013" class="card-img-top" alt="Producto">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCsQNip-4334P2vyua2UXTclbSuCzwsn-bGqbVDG_xkfOPaWG3s80KESsLyb1FW2ymwUook672YYhytJHJiUgnYAHpVKkAIeHnklzSoQs8GbZ98haheX1XwSqLzpwhKkuZHzpvPqISpIDG4fgW7wbLI1znFV0uS4x8iGIleudFfFxk-YMLcqGGiJvSgkMg/s320/WhatsApp%20Image%202023-08-22%20at%201.07.30%20PM%20(2).jpeg" class="card-img-top" alt="Producto">
         <div class="card-body">
-            <h5 class="card-title">Habitacion Doble:</h5>
-            <p class="card-text">Descubre la comodidad y el lujo en nuestras espaciosas habitaciones dobles.
-                Diseñadas para ofrecer un ambiente acogedor y relajante, nuestras habitaciones dobles son ideales
-                tanto para parejas en escapadas románticas como para amigos que viajan juntos. Equipadas con dos camas cómodas,
-                televisores de pantalla plana y todas las comodidades modernas que puedas necesitar
+            <h5 class="card-title">Habitacion Simple:</h5>
+            <p class="card-text">Experimenta la serenidad y la simplicidad 
+                en nuestras acogedoras habitaciones individuales. Diseñadas 
+                para brindar un ambiente tranquilo y funcional, nuestras habitaciones 
+                individuales son perfectas para aquellos que buscan un espacio íntimo 
+                y relajante. Equipadas con una cómoda cama, televisor de pantalla plana 
+                y todas las comodidades esenciales para una estancia cómoda.
             </p>
-            <a href="./reservacion.php" class="btn btn-primary">Reserva</a>
+            <a href="<?php echo RUTA_PRINCIPAL . 'reservas'; ?>" class="btn btn-primary">Reserva</a>
         </div>
     </div>>
     <div class="card mx-2" id="card-eventos" style="width: 32rem;">
-        <img src="https://image-tc.galaxy.tf/wijpeg-f58xxt4wga8k0oiub1c3e90s3/familymaster05_wide.jpg?crop=0%2C95%2C1800%2C1013" class="card-img-top" alt="Producto">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkLIS1dVV0pl2a2QYyXdDvt3PRJ3DLx4pivL1gh0MvGGvIe0YQA1ukd7D5rbPLjc2QC_tyz8ThDjOj8qAu6ND-oKebMZmBCq9E8FcxGRdlUNGiIBcypcvxMEPHj0FmI7mn62vcxRebkuZaF_d73YC_ejQ-4lfgiQRlMHmfrf3Ar-3T40t-3R0PIJ-AkIU/s320/WhatsApp%20Image%202023-08-22%20at%201.07.30%20PM%20(9).jpeg" class="card-img-top" alt="Producto">
         <div class="card-body">
             <h5 class="card-title">Habitacion Doble:</h5>
-            <p class="card-text">Descubre la comodidad y el lujo en nuestras espaciosas habitaciones dobles.
-                Diseñadas para ofrecer un ambiente acogedor y relajante, nuestras habitaciones dobles son ideales
-                tanto para parejas en escapadas románticas como para amigos que viajan juntos. Equipadas con dos camas cómodas,
-                televisores de pantalla plana y todas las comodidades modernas que puedas necesitar
+            <p class="card-text">Disfruta de una experiencia única en nuestras habitaciones 
+                con terraza, donde la comodidad se fusiona con la belleza al aire libre. 
+                Estas habitaciones están diseñadas para ofrecer un ambiente elegante y relajado, 
+                con la ventaja adicional de una terraza privada. Perfectas para aquellos que desean 
+                disfrutar de momentos al aire libre, nuestras habitaciones con terraza cuentan con 
+                todas las comodidades modernas, una cama confortable y un espacio al aire libre exclusivo para tu disfrute.
             </p>
-            <a href="./reservacion.php" class="btn btn-primary">Reserva</a>
+            <a href="<?php echo RUTA_PRINCIPAL . 'reservas'; ?>" class="btn btn-primary">Reserva</a>
         </div>
     </div>
 
     <div class="card mx-2" id="card-eventos" style="width: 32rem;">
-        <img src="https://image-tc.galaxy.tf/wijpeg-f58xxt4wga8k0oiub1c3e90s3/familymaster05_wide.jpg?crop=0%2C95%2C1800%2C1013" class="card-img-top" alt="Producto">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg1OHjRIYxlunVJO_nhBIixDiW8dxBCfykYAonetAEl1dzlq8Zc5HRvg3mdB7oc0v81rCNkYvCpqe6zuCgVDbv225LTMw7nXKHj6O5V3sF_iyFyhITO1SEnjgzIkif7TemA_fWIj-Oao0TrQzawzs1xgsc6PDoS_RArCfg59IHFtFSggfSwG1lCpdZKbep8" class="card-img-top" alt="Producto">
         <div class="card-body">
-            <h5 class="card-title">Habitacion Doble:</h5>
+            <h5 class="card-title">Habitacion con Terraza:</h5>
             <p class="card-text">Descubre la comodidad y el lujo en nuestras espaciosas habitaciones dobles.
                 Diseñadas para ofrecer un ambiente acogedor y relajante, nuestras habitaciones dobles son ideales
                 tanto para parejas en escapadas románticas como para amigos que viajan juntos. Equipadas con dos camas cómodas,
                 televisores de pantalla plana y todas las comodidades modernas que puedas necesitar
             </p>
-            <a href="./reservacion.php" class="btn btn-primary">Reserva</a>
+            <a href="<?php echo RUTA_PRINCIPAL . 'reservas'; ?>" class="btn btn-primary">Reserva</a>
         </div>
     </div>
 </div>

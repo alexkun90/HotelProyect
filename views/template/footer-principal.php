@@ -7,10 +7,7 @@
                         Hotel La Avenida
                     </h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Quod architecto consectetur voluptatum, possimus
-                        labore, a at nesciunt accusantium soluta animi dolorem
-                        minus suscipit dolores eveniet veniam mollitia ab. Iure, provident?
+                        Somos un hotel pequeño que te tratara de la mejor manera para que disfrutes las tierras de Guanacaste
                     </p>
                 </div>
 

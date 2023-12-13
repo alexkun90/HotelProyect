@@ -27,7 +27,7 @@
     <div class="col-md-12" id="datatable">
         <div class="card card-dark">
             <div class="card-header">
-                <h3 class="card-title">Usuarios existentes</h3>
+                <h3 class="card-title">Eventos Añadidos</h3>
             </div>
             <div class="card-body p-0">
                 <div class="row mt-2">
@@ -35,46 +35,26 @@
                         <table id="example" class="table">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Nombre</th>
-                                    <th>Correo</th>
-                                    <th>Telefono</th>
-                                    <th>Direccion</th>
-                                    <th>Fecha</th>
+                                    <th>Titulo</th>
+                                    <th>Start</th>
+                                    <th>End</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Mauricio</td>
-                                    <td>mauhidalgo312@gmail.com</td>
-                                    <td>8686-8484</td>
-                                    <td>San Sebastian</td>
-                                    <td>2023-12-13</td>
+                                    <td>Boda</td>
+                                    <td>2023-12-15</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Alex</td>
-                                    <td>Alex@gmail.com</td>
-                                    <td>1234-5678</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
+                                    <td>Cumple</td>
+                                    <td>2023-12-16T10:00:00</td>
+                                    <td>2023-12-16T14:00:00/td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>Hermes</td>
-                                    <td>Hermes@gmail.com</td>
-                                    <td>8765-4321</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Sebas</td>
-                                    <td>Sebas@gmail.com</td>
-                                    <td>1111-1111</td>
-                                    <td>San Jose</td>
-                                    <td>2023-12-13</td>
+                                    <td>Graduacion</td>
+                                    <td>2023-12-11T15:30:00</td>
+                                    <td>2023-12-11T17:30:00</td>
                                 </tr>
                             </tbody>
                         </table>

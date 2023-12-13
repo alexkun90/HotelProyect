@@ -71,7 +71,7 @@
             <div class="col-lg-4">
                 <div class="info-box bg-warning">
                     <div class="info-box-content">
-                        <span class="info-box-number">4</span>
+                        <span class="info-box-number">3</span>
                         <span class="info-box-text">Eventos Añadidos</span>
                     </div>
                     <span class="info-box-icon">
@@ -101,7 +101,7 @@
                 labels: ['Septiembre','Octubre','Noviembre', 'Diciembre'],
                 datasets: [{
                     label: 'Habitaciones Reservadas',
-                    data: [0, 0, 4, 0],
+                    data: [0, 0, 1, 3],
                     borderWidth: 1,
                     borderColor: 'red',
                     backgroundColor: 'red',
@@ -120,7 +120,7 @@
                 labels: ['Octubre','Noviembre', 'Diciembre','Enero','Febrero'],
                 datasets: [{
                     label: 'Eventos Añadidos',
-                    data: [0, 4, 0, 0, 0],
+                    data: [0, 1, 2, 0, 0],
                     borderWidth: 1,
                     borderColor: 'blue',
                     backgroundColor: 'blue',
