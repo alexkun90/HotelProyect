@@ -67,7 +67,7 @@
                 Ya sea una boda de ensueño, una fiesta vibrante o una reunión empresarial exitosa,
                 nuestro equipo está aquí para convertir tus ideas en experiencias memorables.
             </p>
-            <a href="./reservasE.php" class="btn btn-primary">Reserva</a>
+            <a href="<?php echo RUTA_PRINCIPAL . 'reservasE'; ?>" class="btn btn-primary">Reserva</a>
         </div>
     </div>
 
