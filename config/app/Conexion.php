@@ -1,20 +1,20 @@
 <?php
+require_once __DIR__ . '/../config.php';
 
-class Conexion{
+class Conexion {
     private $conect;
-    public function __construct(){
-        $pdo = "mysql:host=" . HOST . ";dbname=" . DATABASE . ";" . CHARSET;
+
+    public function conectar() {
         try {
-            $this->conect = new PDO($pdo, USER, PASS);
-            $this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-           
-        } catch (PDOException $e) {
-            echo "Error en la conexion: " . $e->getMessage();
+            $cn = new PDO("mysql:host=" . HOST . ";dbname=" . DATABASE . ";charset=utf8", USER, PASS);
+            $cn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            return $cn;
+        } catch (PDOException $ex) {
+            die($ex->getMessage());
         }
     }
-    public function conectar(){
-        return $this->conect;
-    }
 }
-
 ?>
+
+
+
