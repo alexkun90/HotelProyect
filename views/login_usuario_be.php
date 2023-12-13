@@ -5,11 +5,11 @@
     include 'conexion_be.php' ;
 
     $correo = $_POST['correo'];
-    $contrasena = $_POST['contrasena'];
-    $contrasena = hash('sha512', $contrasena);
+    $clave = $_POST['clave'];
+    $clave = hash('sha512', $clave);
 
     $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE 
-                                                CORREO = '$correo' and CONTRASENA = '$contrasena'");
+                                                correo = '$correo' and clave = '$clave'");
 
     if (mysqli_num_rows($validar_login) > 0) {
         $_SESSION['usuario'] = $correo;

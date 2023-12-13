@@ -2,7 +2,7 @@
 
 
 
-    $conexion = mysqli_connect("localhost", "root", "2022", "hotellaavenida");
+    $conexion = mysqli_connect("localhost", "root", "2022", "reservas");
 
 /*
     if ($conexion) {

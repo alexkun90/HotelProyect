@@ -2,21 +2,21 @@
 
     include 'conexion_be.php' ;
 
-    $nombre_completo= $_POST['nombre_completo'];
+    $nombre= $_POST['nombre'];
     $correo= $_POST['correo'];
     $usuario = $_POST['usuario'];
-    $contrasena = $_POST['contrasena'];
+    $clave = $_POST['clave'];
 
     //Encriptar la contrasena
-    $contrasena = hash('sha512',$contrasena);
+    $clave = hash('sha512',$clave);
 
-    $query = "INSERT INTO usuarios(NOMBRE_COMPLETO, CORREO, USUARIO, CONTRASENA) 
-                VALUES ('$nombre_completo','$correo', '$usuario', '$contrasena')";
+    $query = "INSERT INTO usuarios(nombre, correo, usuario, clave) 
+                VALUES ('$nombre','$correo', '$usuario', '$clave')";
 
 
     //Verificar que el correo no se repita en la base de datos
 
-    $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE CORREO = '$correo'");
+    $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo = '$correo'");
 
     if (mysqli_num_rows($verificar_correo) > 0) {
         echo '
@@ -30,7 +30,7 @@
 
     //Verificar que el nombre de usuario no se repita en la base de datos
 
-    $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE USUARIO = '$usuario'");
+    $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE usuario = '$usuario'");
 
     if (mysqli_num_rows($verificar_usuario) > 0) {
         echo '
